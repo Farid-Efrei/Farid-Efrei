@@ -121,10 +121,25 @@ def fast_update():
         with open('README.md', 'w', encoding='utf-8') as f:
             f.write(readme_content)
         print("✅ README mis à jour avec succès!")
+        
+        # Vérification que le fichier a bien été écrit
+        if os.path.exists('README.md'):
+            file_size = os.path.getsize('README.md')
+            print(f"📄 Fichier README.md: {file_size} bytes")
+            
+            # Lire les premières lignes pour confirmer
+            with open('README.md', 'r', encoding='utf-8') as f:
+                first_lines = f.read(200)
+            print(f"📋 Début du fichier: {first_lines[:100]}...")
+        else:
+            print("❌ Fichier README.md non trouvé après écriture!")
+            
         print("🎯 Script terminé en mode rapide")
         
     except Exception as e:
         print(f"💥 Erreur écriture: {e}")
+        print(f"📁 Dossier courant: {os.getcwd()}")
+        print(f"📂 Contenu du dossier: {os.listdir('.')}")
 
 if __name__ == "__main__":
     fast_update()
