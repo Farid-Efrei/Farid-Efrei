@@ -1,7 +1,7 @@
 # 🌟 Welcome to Fairytale-Dev's Universe! 🌟
 
 <div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&duration=3500&pause=800&color=6366F1&background=00000000&center=true&vCenter=true&multiline=true&width=900&height=320&lines=Hi%2C+I'm+Faryd+%F0%9F%91%8B;Fairytale-Dev+%E2%9C%A8;Full-Stack+Developer+%F0%9F%9A%80+Little+Game+Dev+%F0%9F%8E%AE;Student+%26+Dreamer+%F0%9F%8C%9F;Learning+from+Everyone+%26+Everything+%F0%9F%A7%A0%E2%9C%A8;AI+Enthusiast+%F0%9F%A4%96+Techno+Explorer+%F0%9F%90%8D" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3500&pause=800&color=6366F1&background=00000000&center=true&vCenter=true&multiline=true&width=950&height=320&lines=Hi%2C+I'm+Farid+%F0%9F%91%8B%E2%9C%A8;Fairytale-Dev+%F0%9F%A7%99%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%92%AB;Full-Stack+Developer+%F0%9F%9A%80+Little+Game+Dev+%F0%9F%8E%AE;Student+%26+Dreamer+%F0%9F%8C%9F%F0%9F%93%9A;Learning+from+Everyone+%26+Everything+%F0%9F%A7%A0%E2%9C%A8;AI+Enthusiast+%F0%9F%A4%96+Techno+Explorer+%F0%9F%94%A5%F0%9F%92%BB%F0%9F%8E%B2" alt="Typing SVG" />
 </div>
 
 <br> <br>
@@ -33,6 +33,7 @@ const fairytaleDev = {
         "🧠 Psychology & Human Behavior - Understanding the 'why'",
         "🤖 AI & Data Science - Exploring the future of intelligence",
         "🐍 Python & Data Manipulation - Making sense of chaos",
+        "🔥 Techno Explorer - Hardware, software, and everything in between",
         "🌱 RSE & Sustainable Tech - Coding for a better world",
         "✨ Beautiful & Meaningful Applications - Art meets function"
     ],
@@ -43,11 +44,10 @@ const fairytaleDev = {
         "🤖 AI experiments - Teaching machines to think",
         "📊 Data visualization - Making numbers tell stories"
     ],
-    
-    learningJourney: {
-        current: ["Python 🐍", "Data Science 📊", "AI/ML 🤖", "Angular 📐"],
-        next: ["Machine Learning", "Data Engineering", "Cloud Computing"],
-        philosophy: "Every person I meet, every project I see, every bug I encounter teaches me something new"
+      learningJourney: {
+        current: ["Python 🐍", "Data Science 📊", "AI/ML 🤖", "Angular 📐", "Hardware Tinkering 🔧"],
+        next: ["Machine Learning", "Data Engineering", "Cloud Computing", "IoT Projects", "VR/AR Development"],
+        philosophy: "Every person I meet, every project I see, every bug I encounter, every gadget I touch teaches me something new"
     },
     
     humanSide: {
@@ -84,7 +84,16 @@ const fairytaleDev = {
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
 </p>
 
-### 🔧 **Tools & Platforms**
+### � **Techno Explorer Arsenal**
+<p>
+  <img src="https://skillicons.dev/icons?i=apple,windows,linux,arduino,raspberrypi&theme=dark" alt="Hardware"/>
+  <img src="https://img.shields.io/badge/MacBook-000000?style=for-the-badge&logo=apple&logoColor=white" alt="MacBook"/>
+  <img src="https://img.shields.io/badge/Gaming_PC-FF6600?style=for-the-badge&logo=msi&logoColor=white" alt="Gaming PC"/>
+  <img src="https://img.shields.io/badge/Nintendo_Switch-E60012?style=for-the-badge&logo=nintendo-switch&logoColor=white" alt="Switch"/>
+  <img src="https://img.shields.io/badge/PlayStation-003791?style=for-the-badge&logo=playstation&logoColor=white" alt="PlayStation"/>
+</p>
+
+### �🔧 **Tools & Platforms**
 <p>
   <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,firebase,vercel&theme=dark" alt="Tools"/>
 </p>
@@ -322,7 +331,9 @@ const fairytaleDev = {
 📱 Mobile Development  ███████████████░░░░░ 75% 
 🌐 Web Development     ██████████████████░░ 90%
 🐍 Python & Data Sci.  ████████░░░░░░░░░░░░ 40% (Growing rapidly!)
+🔥 Tech Exploration   ████████████████████ 100% (Born explorer!)
 🤖 AI & ML             ██████░░░░░░░░░░░░░░ 30% (Passionate learner)
+💻 Hardware Tinkering ████████████░░░░░░░░ 60% (Love building setups)
 🎨 UI/UX Design        █████████████░░░░░░░ 65%
 🧠 Psychology & UX     ████████████░░░░░░░░ 60%
 ```
@@ -457,12 +468,16 @@ const fairytaleDev = {
 📚 Psychology enthusiast - fascinated by why people do what they do  
 🎮 Retro gaming lover - pixel art is my aesthetic language  
 ☕ Coffee-driven development - turning caffeine into algorithms since 2023  
-🌍 Dream to create apps that make the world a little more connected and understanding  
+🔥 Tech gear enthusiast - always eyeing the latest MacBook, gaming rig, or console  
+� Gaming setup perfectionist - RGB everything and mechanical keyboards  
+�🌍 Dream to create apps that make the world a little more connected and understanding  
 🧠 I analyze user behavior like a detective - every click tells a story  
 🎵 Code to music - different genres for different programming moods  
 🔍 Debugging feels like solving mysteries - and I love a good mystery  
 📖 Always reading - tech blogs, psychology papers, and fantasy novels  
 🤝 Believe the best code comes from diverse perspectives working together  
+💻 Hardware collector - from vintage consoles to cutting-edge laptops  
+🎯 Early adopter - first in line for new frameworks, tools, and gadgets  
 
 ### 🌟 **What Drives Me**
 
@@ -482,5 +497,76 @@ const fairytaleDev = {
 **✨ Made with ❤️ and lots of ☕ by Fairytale-Dev**
 
 *"In a world full of bugs, be the feature that makes everything better."* 🐛➡️🦋
+
+</div>
+
+---
+
+## 🔥 **Techno Explorer Journey**
+
+<div align="center">
+
+### 🌐 **"Exploring Every Corner of Technology"**
+
+</div>
+
+<table>
+<tr>
+<td width="25%">
+
+#### 💻 **Hardware Passion**
+- **💻 MacBook Pro** - Daily driver
+- **🎮 Gaming PC** - Custom built beast
+- **🎯 Nintendo Switch** - Portable creativity
+- **📱 Latest smartphones** - UI/UX inspiration
+- **🤖 Arduino/RPi** - IoT experiments
+
+</td>
+<td width="25%">
+
+#### 🔤 **Languages Explorer**
+- **🌐 Web:** JS, TS, HTML, CSS
+- **📱 Mobile:** React Native, Ionic
+- **🎮 Game:** GDScript, C#, JS
+- **🐍 Data:** Python, SQL
+- **☕ Backend:** Java, Node.js
+- **🔮 Learning:** Rust, Go, Kotlin
+
+</td>
+<td width="25%">
+
+#### 🚀 **Tech Trends Watcher**
+- **🤖 AI/ML** - GPT, Stable Diffusion
+- **🌐 Web3** - Blockchain concepts
+- **🥽 AR/VR** - Immersive experiences
+- **☁️ Cloud** - AWS, Firebase, Vercel
+- **🔒 Cybersecurity** - Ethical hacking
+- **🎯 No-Code** - Exploring efficiency
+
+</td>
+<td width="25%">
+
+#### 🎪 **Creative Tech**
+- **🎨 Design Tools** - Figma, Canva
+- **🎵 Audio Tech** - DAWs, synthesizers
+- **📸 Photography** - Digital art
+- **🎬 Video** - Editing, streaming
+- **🎲 Game Engines** - Unity, Godot
+- **✨ 3D Modeling** - Blender basics
+
+</td>
+</tr>
+</table>
+
+### 🎯 **Exploration Philosophy**
+
+> *"Every new technology is a door to infinite possibilities. I don't just code - I explore, experiment, and dream with technology."*
+
+<div align="center">
+
+| 🔍 **Discovery** | 🧪 **Experimentation** | 🎨 **Creation** | 🌟 **Innovation** |
+|:---:|:---:|:---:|:---:|
+| Always hunting for new tech | Testing everything hands-on | Building with fresh tools | Combining unexpected elements |
+| Reading tech blogs daily | Weekend hack projects | Prototype-driven learning | Cross-platform thinking |
 
 </div>
