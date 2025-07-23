@@ -1,7 +1,7 @@
 # 🌟 Welcome to Fairytale-Dev's Universe! 🌟
 
 <div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3500&pause=800&color=6366F1&background=00000000&center=true&vCenter=true&multiline=true&width=950&height=320&lines=Hi%2C+I'm+Farid+%F0%9F%91%8B%E2%9C%A8;Fairytale-Dev+%F0%9F%A7%99%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%92%AB;Full-Stack+Developer+%F0%9F%9A%80+Little+Game+Dev+%F0%9F%8E%AE;Student+%26+Dreamer+%F0%9F%8C%9F%F0%9F%93%9A;Learning+from+Everyone+%26+Everything+%F0%9F%A7%A0%E2%9C%A8;AI+Enthusiast+%F0%9F%A4%96+Techno+Explorer+%F0%9F%94%A5%F0%9F%92%BB%F0%9F%8E%B2" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&duration=3500&pause=900&color=6366F1&background=00000000&center=true&vCenter=true&multiline=true&width=950&height=320&lines=Hi%2C+I'm+Farid+%F0%9F%91%8B%E2%9C%A8;Fairytale-Dev+%F0%9F%A7%99%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%92%AB;Full-Stack+Developer+%F0%9F%9A%80+Little+Game+Dev+%F0%9F%8E%AE;Student+%26+Dreamer+%F0%9F%8C%9F%F0%9F%93%9A;Learning+from+Everyone+%26+Everything+%F0%9F%A7%A0%E2%9C%A8;AI+Enthusiast+%F0%9F%A4%96+Techno+Explorer+%F0%9F%94%A5%F0%9F%92%BB%F0%9F%8E%B2" alt="Typing SVG" />
 </div>
 
 <br> <br>
