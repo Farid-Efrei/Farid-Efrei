@@ -24,7 +24,8 @@ jobs:
       run: |
         pip install requests
         pip install python-dateutil
-          - name: 🔄 Update README
+        
+    - name: 🔄 Update README
       run: python scripts/update_readme_fast.py
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -35,5 +36,4 @@ jobs:
         git config --local user.name "Fairytale-Bot"
         git add README.md
         git diff --staged --quiet || git commit -m "🤖 Auto-update profile README"
-        git pull --rebase
         git push
