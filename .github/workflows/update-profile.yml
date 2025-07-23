@@ -19,12 +19,12 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-        
-    - name: 📦 Install dependencies
+          - name: 📦 Install dependencies
       run: |
         pip install requests
         pip install python-dateutil
-      - name: 🔄 Update README (Fast Debug)
+        
+    - name: 🔄 Update README (Fast Debug)
       run: python scripts/update_readme_fast.py
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
