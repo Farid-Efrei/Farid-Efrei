@@ -1,7 +1,7 @@
 # 🌟 Welcome to Fairytale-Dev's Universe! 🌟
 
 <div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&duration=3500&pause=800&color=6366F1&background=00000000&center=true&vCenter=true&multiline=true&width=750&height=320&lines=Hi%2C+I'm+Faryd+%F0%9F%91%8B;Fairytale-Dev+%E2%9C%A8;Full-Stack+Developer+%F0%9F%9A%80+Little+Game+Dev+%F0%9F%8E%AE;Student+%26+Dreamer+%F0%9F%8C%9F;Learning+from+Everyone+%26+Everything+%F0%9F%A7%A0%E2%9C%A8;AI+Enthusiast+%F0%9F%A4%96+Techno+Explorer+%F0%9F%90%8D" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&duration=3500&pause=800&color=6366F1&background=00000000&center=true&vCenter=true&multiline=true&width=900&height=320&lines=Hi%2C+I'm+Faryd+%F0%9F%91%8B;Fairytale-Dev+%E2%9C%A8;Full-Stack+Developer+%F0%9F%9A%80+Little+Game+Dev+%F0%9F%8E%AE;Student+%26+Dreamer+%F0%9F%8C%9F;Learning+from+Everyone+%26+Everything+%F0%9F%A7%A0%E2%9C%A8;AI+Enthusiast+%F0%9F%A4%96+Techno+Explorer+%F0%9F%90%8D" alt="Typing SVG" />
 </div>
 
 <br> <br>
