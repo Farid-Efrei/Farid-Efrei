@@ -187,7 +187,7 @@ class FairyTaleProfileUpdater:
         return section
     
     def generate_full_readme(self, categorized_repos: Dict) -> str:
-        """Génère le README complet"""
+        """Génère le README complet en préservant le contenu existant"""
         wakatime_stats = self.get_wakatime_stats()
         project_section = self.generate_project_section(categorized_repos)
         
@@ -197,57 +197,125 @@ class FairyTaleProfileUpdater:
         readme_template = f"""# 🌟 Welcome to Fairytale-Dev's Universe! 🌟
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=6366F1&background=00000000&center=true&vCenter=true&multiline=true&width=650&height=140&lines=Hi%2C+I'm+Farid+%F0%9F%91%8B;Fairytale-Dev+%E2%9C%A8;Full-Stack+Developer+%F0%9F%9A%80;Game+Developer+%F0%9F%8E%AE;Student+%26+Dreamer+%F0%9F%8C%9F" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36+&duration=3500&pause=900&color=6366F1&background=00000000&center=true&vCenter=true&multiline=true&width=950&height=360&lines=Hi%2C+I'm+Fary+%F0%9F%91%8B%E2%9C%A8;Fairytale-Dev+%F0%9F%A7%99%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%92%AB;Full-Stack+Developer+%F0%9F%9A%80+Little+Game+Dev+%F0%9F%8E%AE;Student+%26+Dreamer+%F0%9F%8C%9F%F0%9F%93%9A;Learning+from+Everyone+%26+Everything+%F0%9F%A7%A0%E2%9C%A8;AI+Enthusiast+%F0%9F%A4%96+Techno+Explorer+%F0%9F%94%A5%F0%9F%92%BB%F0%9F%8E%B2" alt="Typing SVG" />
 </div>
 
-<br><br>
+<br> <br>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Farid-Efrei&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views"/>
   <img src="https://img.shields.io/github/followers/Farid-Efrei?style=flat-square&color=blue&label=Followers" alt="Followers"/>
-  <img src="https://img.shields.io/badge/Projects-{total_projects}-brightgreen?style=flat-square&label=Total" alt="Total Projects"/>
   <img src="https://img.shields.io/badge/Status-Coding%20%26%20Learning-brightgreen?style=flat-square" alt="Status"/>
+</div>
+
+<br>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Farid-Efrei/Farid-Efrei/blob/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Farid-Efrei/Farid-Efrei/blob/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub contribution snake animation" src="https://github.com/Farid-Efrei/Farid-Efrei/blob/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 ---
 
-## 🧙‍♂️ **About Me**
+## 🗺️ **Navigation Menu**
+
+<div align="center">
+
+| 🧙‍♂️ [About Me](#-about-me---the-human-behind-the-code) | 🛠️ [Tech Arsenal](#️-tech-arsenal--learning-playground) | 🎮 [Projects](#-featured-projects) | 🤖 [AI Journey](#-ai--data-science-exploration) |
+|:---:|:---:|:---:|:---:|
+| **🧠 [Learning Philosophy](#-learning-philosophy--growth-mindset)** | **📊 [GitHub Stats](#-github-analytics)** | **🌟 [Philosophy](#-philosophy-values--human-connection)** | **🔥 [Techno Explorer](#-techno-explorer-journey)** |
+
+</div>
+
+---
+
+<!-- AUTO-GENERATED CONTENT START -->
+{project_section}
+
+{wakatime_stats}
+<!-- AUTO-GENERATED CONTENT END -->
+
+---
+
+## 🧙‍♂️ **About Me - The Human Behind the Code**
 
 ```typescript
 const fairytaleDev = {{
     name: "Farid",
     aliases: ["Fairytale-Dev", "Fairytale-Efrei"],
-    role: "Étudiant Développeur Passionné",
+    role: "Étudiant Développeur Passionné & Eternal Learner",
     school: "EFREI Paris",
-    mindset: "Idéaliste & Créatif",
+    mindset: "Idéaliste, Créatif & Infinitely Curious 🔍",
+    
+    corePhilosophy: "Learning from everyone and everything around me 🌟",
     
     passions: [
-        "🎮 Game Development",
-        "📱 Mobile Apps", 
-        "🧠 Psychology & UX",
-        "🌱 RSE & Sustainable Tech",
-        "✨ Beautiful & Useful Applications"
+        "🎮 Game Development - Creating magical experiences",
+        "📱 Mobile Apps - Connecting people through technology", 
+        "🧠 Psychology & Human Behavior - Understanding the 'why'",
+        "🤖 AI & Data Science - Exploring the future of intelligence",
+        "🐍 Python & Data Manipulation - Making sense of chaos",
+        "🔥 Techno Explorer - Hardware, software, and everything in between",
+        "🌱 RSE & Sustainable Tech - Coding for a better world",
+        "✨ Beautiful & Meaningful Applications - Art meets function"
     ],
     
-    currentFocus: "Creating digital experiences that blend fun, utility & meaning",
-    dream: "Building applications that make a positive impact on the world 🌍"
+    currentProjects: [
+        "🗂️ Croisement-Files - Excel manipulation & data processing",
+        "🎮 Godot platformers - Pixel perfect adventures", 
+        "🤖 AI experiments - Teaching machines to think",
+        "📊 Data visualization - Making numbers tell stories"
+    ],
+    
+    learningJourney: {{
+        current: ["Python 🐍", "Data Science 📊", "AI/ML 🤖", "Angular 📐", "Hardware Tinkering 🔧"],
+        next: ["Machine Learning", "Data Engineering", "Cloud Computing", "IoT Projects", "VR/AR Development"],
+        philosophy: "Every person I meet, every project I see, every bug I encounter, every gadget I touch teaches me something new"
+    }},
+    
+    humanSide: {{
+        believes: "Technology should serve humanity, not the other way around",
+        drives: "Making complex things simple and accessible for everyone",
+        dreams: "Building applications that understand human psychology and genuinely help people"
+    }},
+    
+    superPower: "Turning caffeine into code and empathy into user experiences ☕→💻"
 }};
 ```
 
 ---
 
-## 🛠️ **Tech Arsenal**
+## 🛠️ **Tech Arsenal & Learning Playground**
 
 <div align="center">
 
-### 🎯 **Favorites & Mastered**
+### 🎯 **Mastered & Battle-Tested**
 <p>
   <img src="https://skillicons.dev/icons?i=react,nodejs,typescript,tailwind,vue,ionic&theme=dark" alt="Tech Stack"/>
 </p>
 
-### 🚀 **Currently Exploring**
+### 🚀 **Currently Exploring & Mastering**
 <p>
-  <img src="https://skillicons.dev/icons?i=angular,java,godot,phaser&theme=dark" alt="Learning"/>
+  <img src="https://skillicons.dev/icons?i=angular,java,python,godot,phaser&theme=dark" alt="Learning"/>
+</p>
+
+### 🤖 **AI & Data Science Journey**
+<p>
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,jupyter&theme=dark" alt="AI/ML"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+</p>
+
+### 🔥 **Techno Explorer Arsenal**
+<p>
+  <img src="https://skillicons.dev/icons?i=apple,windows,linux,arduino,raspberrypi&theme=dark" alt="Hardware"/>
+  <img src="https://img.shields.io/badge/MacBook-000000?style=for-the-badge&logo=apple&logoColor=white" alt="MacBook"/>
+  <img src="https://img.shields.io/badge/Gaming_PC-FF6600?style=for-the-badge&logo=msi&logoColor=white" alt="Gaming PC"/>
+  <img src="https://img.shields.io/badge/Nintendo_Switch-E60012?style=for-the-badge&logo=nintendo-switch&logoColor=white" alt="Switch"/>
+  <img src="https://img.shields.io/badge/PlayStation-003791?style=for-the-badge&logo=playstation&logoColor=white" alt="PlayStation"/>
 </p>
 
 ### 🔧 **Tools & Platforms**
@@ -256,12 +324,6 @@ const fairytaleDev = {{
 </p>
 
 </div>
-
-{wakatime_stats}
-
----
-
-{project_section}
 
 ---
 
@@ -278,33 +340,6 @@ const fairytaleDev = {{
 
 ---
 
-## 🌱 **Current Learning Journey**
-
-<div align="center">
-
-### 🎯 **2025 Goals**
-
-| 🎮 **Game Dev** | 📱 **Mobile** | 🌐 **Web** | 🧠 **Soft Skills** |
-|:---:|:---:|:---:|:---:|
-| Advanced Godot | React Native Pro | Angular Mastery | Psychology Applied to UX |
-| Unity Basics | iOS Development | Java Backend | Team Leadership |
-| Game AI | Cross-Platform | Microservices | Project Management |
-
-</div>
-
----
-
-## 🌟 **Philosophy & Values**
-
-<div align="center">
-
-> ### *"Créer des expériences numériques qui allient plaisir, utilité et sens"*
-> ### *"Building digital experiences that blend fun, utility & meaning"*
-
-</div>
-
----
-
 ## 📬 **Let's Connect!**
 
 <div align="center">
@@ -312,14 +347,14 @@ const fairytaleDev = {{
 ### 🤝 **Open to collaborate on:**
 - 🎮 **Game Development** projects
 - 📱 **Mobile Applications** with social impact
-- 🌱 **Sustainable Tech** initiatives  
+- 🌱 **Sustainable Tech** initiatives
 - 🎨 **Creative UI/UX** challenges
 
 <p>
-  <a href="mailto:farid.efrei@gmail.com">
+  <a href="mailto:farytale54@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://linkedin.com/in/farid-efrei">
+  <a href="https://www.linkedin.com/in/farid-d94800/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/Farid-Efrei">
@@ -331,23 +366,8 @@ const fairytaleDev = {{
 
 ---
 
-<div align="center">
-
-### 🎪 **Fun Facts About Me**
-
-🎨 I believe every line of code is a brushstroke in a digital masterpiece  
-🌙 Night owl developer - best ideas come after midnight  
-📚 Psychology enthusiast - fascinated by human behavior  
-🎮 Retro gaming lover - pixel art is my aesthetic  
-☕ Coffee-driven development - powered by caffeine & creativity  
-🌍 Dream to create apps that make the world a little better  
-
----
-
-### 🏆 **Achievement Unlocked!**
+###  **Achievement Unlocked!**
 *You've discovered the Fairytale-Dev universe! 🌟*
-
-![Snake animation](https://github.com/Farid-Efrei/Farid-Efrei/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
@@ -356,8 +376,8 @@ const fairytaleDev = {{
 *"In a world full of bugs, be the feature that makes everything better."* 🐛➡️🦋
 
 <!-- Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} UTC -->
-
-</div>"""
+<!-- Total projects: {total_projects} -->
+"""
 
         return readme_template
 
