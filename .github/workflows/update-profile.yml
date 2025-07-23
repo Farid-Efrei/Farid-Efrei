@@ -24,15 +24,13 @@ jobs:
       run: |
         pip install requests
         pip install python-dateutil
-        
-    - name: 🔄 Update README (Fast Debug)
+      - name: 🔄 Update README (Fast Debug)
       run: python scripts/update_readme_fast.py
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        
-    - name: 📤 Commit changes
+          - name: 📤 Commit changes
       run: |
-        git config --local user.email "${{ secrets.EMAIL }}"
+        git config --local user.email "farytale54@gmail.com"
         git config --local user.name "Fairytale-Bot"
         git add README.md
         git diff --staged --quiet || git commit -m "🤖 Auto-update profile README"
