@@ -1,18 +1,27 @@
 # 🌟 Welcome to Fairytale-Dev's Universe! 🌟
 
 <div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&duration=3500&pause=900&color=6366F1&background=00000000&center=true&vCenter=true&multiline=true&width=950&height=320&lines=Hi%2C+I'm+Fary+%F0%9F%91%8B%E2%9C%A8;Fairytale-Dev+%F0%9F%A7%99%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%92%AB;Full-Stack+Developer+%F0%9F%9A%80+Little+Game+Dev+%F0%9F%8E%AE;Student+%26+Dreamer+%F0%9F%8C%9F%F0%🔥 Tech gear enthusiast - always eyeing the latest MacBook, gaming rig, or console  
-🎲 Gaming setup perfectionist - RGB everything and mechanical keyboards  
-🌍 Dream to create apps that make the world a little more connected and understanding93%9A;Learning+from+Everyone+%26+Everything+%F0%9F%A7%A0%E2%9C%A8;AI+Enthusiast+%F0%9F%A4%96+Techno+Explorer+%F0%9F%94%A5%F0%9F%92%BB%F0%9F%8E%B2" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36+&duration=3500&pause=900&color=6366F1&background=00000000&center=true&vCenter=true&multiline=true&width=950&height=360&lines=Hi%2C+I'm+Fary+%F0%9F%91%8B%E2%9C%A8;Fairytale-Dev+%F0%9F%A7%99%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%92%AB;Full-Stack+Developer+%F0%9F%9A%80+Little+Game+Dev+%F0%9F%8E%AE;Student+%26+Dreamer+%F0%9F%8C%9F%F0%9F%93%9A;Learning+from+Everyone+%26+Everything+%F0%9F%A7%A0%E2%9C%A8;AI+Enthusiast+%F0%9F%A4%96+Techno+Explorer+%F0%9F%94%A5%F0%9F%92%BB%F0%9F%8E%B2" alt="Typing SVG" />
 </div>
 
 <br> <br>
-
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Farid-Efrei&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views"/>
   <img src="https://img.shields.io/github/followers/Farid-Efrei?style=flat-square&color=blue&label=Followers" alt="Followers"/>
   <img src="https://img.shields.io/badge/Status-Coding%20%26%20Learning-brightgreen?style=flat-square" alt="Status"/>
+</div>
+
+---
+
+## 🗺️ **Navigation Menu**
+
+<div align="center">
+
+| 🧙‍♂️ [About Me](#-about-me---the-human-behind-the-code) | 🛠️ [Tech Arsenal](#️-tech-arsenal--learning-playground) | 🎮 [Projects](#-featured-projects) | 🤖 [AI Journey](#-ai--data-science-exploration) |
+|:---:|:---:|:---:|:---:|
+| **🧠 [Learning Philosophy](#-learning-philosophy--growth-mindset)** | **📊 [GitHub Stats](#-github-analytics)** | **🌟 [Philosophy](#-philosophy-values--human-connection)** | **🔥 [Techno Explorer](#-techno-explorer-journey)** |
+
 </div>
 
 ---
@@ -46,7 +55,8 @@ const fairytaleDev = {
         "🤖 AI experiments - Teaching machines to think",
         "📊 Data visualization - Making numbers tell stories"
     ],
-      learningJourney: {
+    
+    learningJourney: {
         current: ["Python 🐍", "Data Science 📊", "AI/ML 🤖", "Angular 📐", "Hardware Tinkering 🔧"],
         next: ["Machine Learning", "Data Engineering", "Cloud Computing", "IoT Projects", "VR/AR Development"],
         philosophy: "Every person I meet, every project I see, every bug I encounter, every gadget I touch teaches me something new"
@@ -60,7 +70,6 @@ const fairytaleDev = {
     
     superPower: "Turning caffeine into code and empathy into user experiences ☕→💻"
 };
-```
 ```
 
 ---
@@ -461,9 +470,9 @@ const fairytaleDev = {
 
 ---
 
-<div align="center">
+## 🎪 **Fun Facts About the Human Behind the Code**
 
-### 🎪 **Fun Facts About the Human Behind the Code**
+<div align="center">
 
 🎨 I believe every line of code is a brushstroke in a digital masterpiece  
 🌙 Night owl developer - best ideas come after midnight *(and lots of coffee)*  
@@ -471,8 +480,8 @@ const fairytaleDev = {
 🎮 Retro gaming lover - pixel art is my aesthetic language  
 ☕ Coffee-driven development - turning caffeine into algorithms since 2023  
 🔥 Tech gear enthusiast - always eyeing the latest MacBook, gaming rig, or console  
-� Gaming setup perfectionist - RGB everything and mechanical keyboards  
-�🌍 Dream to create apps that make the world a little more connected and understanding  
+🎲 Gaming setup perfectionist - RGB everything and mechanical keyboards  
+🌍 Dream to create apps that make the world a little more connected and understanding  
 🧠 I analyze user behavior like a detective - every click tells a story  
 🎵 Code to music - different genres for different programming moods  
 🔍 Debugging feels like solving mysteries - and I love a good mystery  
@@ -487,20 +496,14 @@ const fairytaleDev = {
 **Long-term Vision:** *"Building bridges between human psychology and artificial intelligence"*  
 **Secret Superpower:** *"Turning complex problems into simple, elegant solutions that people actually want to use"*
 
+</div>
+
 ---
 
 ### 🏆 **Achievement Unlocked!**
 *You've discovered the Fairytale-Dev universe! 🌟*
 
 ![Snake animation](https://github.com/Farid-Efrei/Farid-Efrei/blob/output/github-contribution-grid-snake.svg)
-
----
-
-**✨ Made with ❤️ and lots of ☕ by Fairytale-Dev**
-
-*"In a world full of bugs, be the feature that makes everything better."* 🐛➡️🦋
-
-</div>
 
 ---
 
@@ -572,3 +575,9 @@ const fairytaleDev = {
 | Reading tech blogs daily | Weekend hack projects | Prototype-driven learning | Cross-platform thinking |
 
 </div>
+
+---
+
+**✨ Made with ❤️ and lots of ☕ by Fairytale-Dev**
+
+*"In a world full of bugs, be the feature that makes everything better."* 🐛➡️🦋
