@@ -509,7 +509,7 @@ const fairytaleDev = {
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/Farid-Efrei/Farid-Efrei/blob/output/github-contribution-grid-snake.svg">
     <img alt="Snake animation" src="https://github.com/Farid-Efrei/Farid-Efrei/blob/output/github-contribution-grid-snake.svg">
   </picture>
-</div>/blob/output/github-contribution-grid-snake.svg)
+</div>
 
 ---
 
