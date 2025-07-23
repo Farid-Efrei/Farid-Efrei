@@ -11,7 +11,8 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     
-    steps:    - name: 📥 Checkout
+    steps:
+    - name: 📥 Checkout
       uses: actions/checkout@v3
       
     - name: 🐍 Setup Python
