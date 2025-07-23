@@ -71,3 +71,81 @@ Le script va :
 - ✅ Créer des sections organisées
 - ✅ Mettre à jour le badge de nombre total de projets
 - ✅ Conserver votre snake animation et le reste de votre contenu
+
+## 🚨 **Troubleshooting - Problèmes courants**
+
+### ⏰ **Le workflow prend trop de temps (> 5 minutes)**
+
+**Causes possibles :**
+1. **🔑 Token invalide/expiré** → Le script fait des retry en boucle
+2. **🌐 Problème d'API** → Rate limiting GitHub ou WakaTime
+3. **🐛 Bug dans le script** → Exception non gérée
+4. **📊 Trop de repositories** → Pagination infinie
+
+**Solutions :**
+1. **Vérifiez le log du workflow** :
+   - Actions → Workflow en cours → Cliquez dessus
+   - Regardez quelle étape bloque
+
+2. **Annulez et relancez** :
+   - Cliquez "Cancel workflow" si > 10 minutes
+   - Vérifiez vos secrets GitHub
+   - Relancez avec "Run workflow"
+
+3. **Test en local d'abord** :
+   ```bash
+   # Test rapide sans WakaTime
+   set GITHUB_TOKEN=votre_token
+   python scripts/update_readme.py
+   ```
+
+### 🔧 **Durée normale attendue :**
+- ✅ **1-3 minutes** → Normal
+- ⚠️ **5-8 minutes** → Lent mais acceptable  
+- 🚨 **> 10 minutes** → Problème à résoudre
+
+### 🏃‍♂️ **Version rapide du script**
+
+Si le problème persiste, utilisez cette version allégée :
+
+```python
+# Version rapide - skip WakaTime si timeout
+def get_wakatime_stats_fast(self) -> str:
+    if not self.wakatime_key:
+        return "<!-- Wakatime: Configure API key for stats -->"
+        
+    try:
+        import requests
+        from requests.adapters import HTTPAdapter
+        from urllib3.util.retry import Retry
+        
+        session = requests.Session()
+        retry = Retry(total=2, backoff_factor=0.3)
+        adapter = HTTPAdapter(max_retries=retry)
+        session.mount('http://', adapter)
+        session.mount('https://', adapter)
+        
+        response = session.get(
+            'https://wakatime.com/api/v1/users/current/stats/last_7_days',
+            headers={'Authorization': f'Bearer {self.wakatime_key}'},
+            timeout=10  # 10 secondes max
+        )
+        
+        if response.status_code == 200:
+            # ... traitement normal
+            pass
+        else:
+            return "<!-- Wakatime: API temporarily unavailable -->"
+            
+    except Exception:
+        return "<!-- Wakatime: Skipped due to timeout -->"
+```
+
+### 🎯 **Actions immédiates si > 15 minutes :**
+
+1. **ANNULEZ** le workflow immédiatement
+2. **Vérifiez** vos secrets (GH_TOKEN surtout)
+3. **Testez** en local d'abord
+4. **Relancez** avec un token frais
+
+---
