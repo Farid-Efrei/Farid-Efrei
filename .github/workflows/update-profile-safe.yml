@@ -47,7 +47,8 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git pull --rebase origin main
+        git fetch origin main
+        git rebase origin/main
         git add README.md
         git commit -m "🤖 Auto-update: Statistiques et projets mis à jour ($(date '+%Y-%m-%d %H:%M:%S UTC'))" || exit 0
         git push origin main
