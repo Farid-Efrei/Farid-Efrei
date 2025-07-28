@@ -14,7 +14,7 @@ from typing import List, Dict, Any
 # Configuration
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 USERNAME = 'Farid-Efrei'
-README_PATH = 'README.md'
+README_PATH = 'README.md'  # Le README est dans le répertoire de travail
 
 def get_github_repos() -> List[Dict[str, Any]]:
     """Récupère les repositories depuis l'API GitHub."""
@@ -110,8 +110,7 @@ def generate_auto_sections(categories: Dict[str, List[Dict[str, Any]]]) -> str:
         auto_content += "\n- *Aucun projet de jeu détecté pour le moment*"
     
     auto_content += "\n\n### 📊 **Projets Data & Python**"
-    
-    # Ajouter les projets data
+      # Ajouter les projets data
     if categories['data']:
         for repo in categories['data'][:3]:  # Top 3
             auto_content += f"""
@@ -119,7 +118,9 @@ def generate_auto_sections(categories: Dict[str, List[Dict[str, Any]]]) -> str:
   - ⭐ {repo['stargazers_count']} stars | 🍴 {repo['forks_count']} forks
   - 📅 Mis à jour: {repo['updated_at'][:10]}"""
     else:
-        auto_content += "\n- *Aucun projet data détecté pour le moment*"    # Statistiques rapides
+        auto_content += "\n- *Aucun projet data détecté pour le moment*"
+    
+    # Statistiques rapides
     total_repos = sum(len(repos) for repos in categories.values())
     total_stars = sum(sum(repo['stargazers_count'] for repo in repos) for repos in categories.values())
     

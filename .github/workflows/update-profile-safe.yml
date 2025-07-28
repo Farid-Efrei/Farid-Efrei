@@ -29,14 +29,11 @@ jobs:
     - name: 📦 Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests
-
-    - name: 🤖 Run safe README update
+        pip install requests    - name: 🤖 Run safe README update
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        cd scripts
-        python update_readme_safe.py
+        python scripts/update_readme_safe.py
 
     - name: 📊 Check for changes
       id: git-check
