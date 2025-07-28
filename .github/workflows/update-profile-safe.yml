@@ -2,10 +2,8 @@ name: 🤖 Safe Profile Auto-Update
 
 on:
   schedule:
-    # Exécuter tous les jours à 6h00 UTC (7h00 Paris)
     - cron: '0 6 * * *'
   workflow_dispatch:
-    # Permettre l'exécution manuelle
   push:
     branches: [ main ]
     paths: [ 'scripts/**' ]
@@ -36,12 +34,12 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         python scripts/update_readme_safe.py
-        
+
     - name: 📊 Check for changes
       id: git-check
       run: |
         git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
-        
+
     - name: 💾 Commit and push changes
       if: steps.git-check.outputs.changes == 'true'
       run: |
