@@ -98,8 +98,7 @@ def generate_auto_sections(categories: Dict[str, List[Dict[str, Any]]]) -> str:
 
 ### 🎮 **Développement de Jeux**
 """
-    
-    # Ajouter les projets de jeux
+      # Ajouter les projets de jeux
     if categories['game']:
         for repo in categories['game'][:3]:  # Top 3
             auto_content += f"""
@@ -110,7 +109,8 @@ def generate_auto_sections(categories: Dict[str, List[Dict[str, Any]]]) -> str:
         auto_content += "\n- *Aucun projet de jeu détecté pour le moment*"
     
     auto_content += "\n\n### 📊 **Projets Data & Python**"
-      # Ajouter les projets data
+    
+    # Ajouter les projets data
     if categories['data']:
         for repo in categories['data'][:3]:  # Top 3
             auto_content += f"""
