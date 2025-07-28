@@ -594,7 +594,7 @@ const fairytaleDev = {
 ## 🤖 **Auto-Update Status**
 
 ✅ **Automatisation active !**  
-📅 **Dernière mise à jour:** 2025-07-23 20:30:00 UTC  
+📅 **Dernière mise à jour:** 2025-07-28 09:48:30 UTC  
 🔧 **Mode:** Production - Mise à jour sécurisée
 
 ---
@@ -605,33 +605,18 @@ const fairytaleDev = {
 
 | 🎮 **Jeux** | 🌐 **Web** | 📱 **Mobile** | 📊 **Data** | 🤖 **AI** | 🔧 **Autres** |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 projets | 8 projets | 3 projets | 2 projets | 1 projet | 5 projets |
+| 1 projets | 5 projets | 0 projets | 0 projets | 1 projets | 7 projets |
 
 </div>
 
-### 🎮 **Développement de Jeux** *(Auto-détectés)*
+### 🎮 **Développement de Jeux**
 
-- **[mon-2e-jeu-godot](https://github.com/Farid-Efrei/mon-2e-jeu-godot)** - Coin Collector Odyssey - Platformer avec mécaniques de collection
-  - ⭐ 2 stars | 🍴 0 forks
-  - 📅 Mis à jour: 2025-07-20
-
-- **[flappyCat](https://github.com/Farid-Efrei/flappyCat)** - Jeu FlappyCat développé avec Phaser.js
-  - ⭐ 1 star | 🍴 0 forks
-  - 📅 Mis à jour: 2025-07-15
-
-- **[jeu-python-pygame](https://github.com/Farid-Efrei/jeu-python-pygame)** - Premier jeu Python avec Pygame
+- **[2e-jeu-godot-platform-coins](https://github.com/Farid-Efrei/2e-jeu-godot-platform-coins)** - 2e jeu pour initiation à Godot, jeu complet de plateforme
   - ⭐ 0 stars | 🍴 0 forks
-  - 📅 Mis à jour: 2025-07-10
+  - 📅 Mis à jour: 2025-07-28
 
-### 📊 **Projets Data & Python** *(Auto-détectés)*
-
-- **[croisement-files](https://github.com/Farid-Efrei/croisement-files)** - Manipulation et traitement de fichiers Excel avec Python
-  - ⭐ 3 stars | 🍴 1 fork
-  - 📅 Mis à jour: 2025-07-22
-
-- **[data-analysis-project](https://github.com/Farid-Efrei/data-analysis-project)** - Projet d'analyse de données avec Pandas
-  - ⭐ 1 star | 🍴 0 forks
-  - 📅 Mis à jour: 2025-07-18
+### 📊 **Projets Data & Python**
+- *Aucun projet data détecté pour le moment*
 
 ---
 
@@ -641,29 +626,11 @@ const fairytaleDev = {
 
 | 📦 **Repositories** | ⭐ **Total Stars** | 🔥 **Catégories** | 🚀 **Projets Actifs** |
 |:---:|:---:|:---:|:---:|
-| 23 | 45 | 6 | 8 |
+| 14 | 1 | 6 | 2 |
 
 </div>
 
-### 🏆 **Projets les Plus Populaires** *(Auto-généré)*
-
-<div align="center">
-
-| 🌟 **Top Stars** | 📈 **Récemment Actifs** | 🎯 **Langages** |
-|:---:|:---:|:---:|
-| K-Hero-ZEN (12★) | croisement-files | JavaScript (35%) |
-| Ghibli-APP (8★) | mon-2e-jeu-godot | Python (25%) |
-| Anime-Tracker (6★) | Farid-Efrei | TypeScript (20%) |
-
-</div>
-
-### 🔄 **Activité Récente** *(Auto-généré)*
-
-- 🎮 **mon-2e-jeu-godot** - Ajout de nouvelles mécaniques de jeu *(il y a 3 jours)*
-- 📊 **croisement-files** - Optimisation des performances *(il y a 1 jour)*
-- 🤖 **Farid-Efrei** - Mise à jour du profil automatisé *(maintenant)*
-
-*Dernière synchronisation: 2025-07-23 20:30:00 UTC*
+*Dernière synchronisation: 2025-07-28 09:48:30 UTC*
 <!-- AUTO_UPDATE_END -->
 
 <!-- Last manual update: 2025-07-23 -->
