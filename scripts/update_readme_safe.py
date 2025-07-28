@@ -8,7 +8,7 @@ Utilise des marqueurs HTML pour identifier les zones à mettre à jour.
 import os
 import requests
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Any
 
 # Configuration
@@ -119,11 +119,25 @@ def generate_auto_sections(categories: Dict[str, List[Dict[str, Any]]]) -> str:
   - ⭐ {repo['stargazers_count']} stars | 🍴 {repo['forks_count']} forks
   - 📅 Mis à jour: {repo['updated_at'][:10]}"""
     else:
-        auto_content += "\n- *Aucun projet data détecté pour le moment*"
-    
-    # Statistiques rapides
+        auto_content += "\n- *Aucun projet data détecté pour le moment*"    # Statistiques rapides
     total_repos = sum(len(repos) for repos in categories.values())
     total_stars = sum(sum(repo['stargazers_count'] for repo in repos) for repos in categories.values())
+    
+    # Calcul des projets actifs avec gestion correcte des timezones
+    try:
+        now = datetime.now(timezone.utc)
+        active_projects = 0
+        for repos in categories.values():
+            for repo in repos:
+                try:
+                    # Convertir la date du repo en datetime avec timezone
+                    repo_date = datetime.fromisoformat(repo['updated_at'].replace('Z', '+00:00'))
+                    if (now - repo_date).days < 30:
+                        active_projects += 1
+                except:
+                    pass  # Ignorer les erreurs de parsing de date
+    except:
+        active_projects = 0  # Fallback en cas d'erreur
     
     auto_content += f"""
 
@@ -135,7 +149,7 @@ def generate_auto_sections(categories: Dict[str, List[Dict[str, Any]]]) -> str:
 
 | 📦 **Repositories** | ⭐ **Total Stars** | 🔥 **Catégories** | 🚀 **Projets Actifs** |
 |:---:|:---:|:---:|:---:|
-| {total_repos} | {total_stars} | 6 | {len([r for repos in categories.values() for r in repos if (datetime.now() - datetime.fromisoformat(r['updated_at'].replace('Z', '+00:00'))).days < 30])} |
+| {total_repos} | {total_stars} | 6 | {active_projects} |
 
 </div>
 
