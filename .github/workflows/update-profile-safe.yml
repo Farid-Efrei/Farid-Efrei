@@ -36,7 +36,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         python scripts/update_readme_safe.py
-          - name: 📊 Check for changes
+        
+    - name: 📊 Check for changes
       id: git-check
       run: |
         git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
