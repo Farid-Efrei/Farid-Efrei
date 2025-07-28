@@ -38,15 +38,14 @@ jobs:
     - name: 📊 Check for changes
       id: git-check
       run: |
-        git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
-
-    - name: 💾 Commit and push changes
+        git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT    - name: 💾 Commit and push changes
       if: steps.git-check.outputs.changes == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add README.md
         git commit -m "🤖 Auto-update: Statistiques et projets mis à jour ($(date '+%Y-%m-%d %H:%M:%S UTC'))" || exit 0
+        git pull --no-rebase origin main
         git push origin main
 
     - name: ✅ Success notification
