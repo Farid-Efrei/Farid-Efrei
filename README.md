@@ -594,7 +594,7 @@ const fairytaleDev = {
 ## 🤖 **Auto-Update Status**
 
 ✅ **Automatisation active !**  
-📅 **Dernière mise à jour:** 2025-09-02 06:25:54 UTC  
+📅 **Dernière mise à jour:** 2025-09-03 06:23:26 UTC  
 🔧 **Mode:** Production - Mise à jour sécurisée
 
 ---
@@ -605,7 +605,7 @@ const fairytaleDev = {
 
 | 🎮 **Jeux** | 🌐 **Web** | 📱 **Mobile** | 📊 **Data** | 🤖 **AI** | 🔧 **Autres** |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 projets | 6 projets | 1 projets | 0 projets | 1 projets | 7 projets |
+| 2 projets | 6 projets | 1 projets | 0 projets | 1 projets | 7 projets |
 
 </div>
 
@@ -614,6 +614,9 @@ const fairytaleDev = {
 - **[2e-jeu-godot-platform-coins](https://github.com/Farid-Efrei/2e-jeu-godot-platform-coins)** - 2e jeu pour initiation à Godot, jeu complet de plateforme
   - ⭐ 0 stars | 🍴 0 forks
   - 📅 Mis à jour: 2025-07-28
+- **[escape-game-booking](https://github.com/Farid-Efrei/escape-game-booking)** - Projet de jeu
+  - ⭐ 0 stars | 🍴 0 forks
+  - 📅 Mis à jour: 2025-09-02
 
 ### 📊 **Projets Data & Python**
 - *Aucun projet data détecté pour le moment*
@@ -626,11 +629,11 @@ const fairytaleDev = {
 
 | 📦 **Repositories** | ⭐ **Total Stars** | 🔥 **Catégories** | 🚀 **Projets Actifs** |
 |:---:|:---:|:---:|:---:|
-| 16 | 1 | 6 | 1 |
+| 17 | 1 | 6 | 2 |
 
 </div>
 
-*Dernière synchronisation: 2025-09-02 06:25:54 UTC*
+*Dernière synchronisation: 2025-09-03 06:23:26 UTC*
 <!-- AUTO_UPDATE_END -->
 
 <!-- Last manual update: 2025-07-23 -->
