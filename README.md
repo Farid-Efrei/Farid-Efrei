@@ -594,7 +594,7 @@ const fairytaleDev = {
 ## 🤖 **Auto-Update Status**
 
 ✅ **Automatisation active !**  
-📅 **Dernière mise à jour:** 2026-04-13 07:59:00 UTC  
+📅 **Dernière mise à jour:** 2026-04-14 07:26:53 UTC  
 🔧 **Mode:** Production - Mise à jour sécurisée
 
 ---
@@ -605,7 +605,7 @@ const fairytaleDev = {
 
 | 🎮 **Jeux** | 🌐 **Web** | 📱 **Mobile** | 📊 **Data** | 🤖 **AI** | 🔧 **Autres** |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 2 projets | 9 projets | 1 projets | 0 projets | 2 projets | 13 projets |
+| 2 projets | 8 projets | 1 projets | 0 projets | 2 projets | 13 projets |
 
 </div>
 
@@ -629,11 +629,11 @@ const fairytaleDev = {
 
 | 📦 **Repositories** | ⭐ **Total Stars** | 🔥 **Catégories** | 🚀 **Projets Actifs** |
 |:---:|:---:|:---:|:---:|
-| 27 | 1 | 6 | 1 |
+| 26 | 1 | 6 | 1 |
 
 </div>
 
-*Dernière synchronisation: 2026-04-13 07:59:00 UTC*
+*Dernière synchronisation: 2026-04-14 07:26:53 UTC*
 <!-- AUTO_UPDATE_END -->
 
 <!-- Last manual update: 2025-07-23 -->
