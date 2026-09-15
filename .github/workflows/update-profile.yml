@@ -1,0 +1,40 @@
+name: 🤖 Update Profile README
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Toutes les 6 heures
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout
+      uses: actions/checkout@v3
+      
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: 📦 Install dependencies
+      run: |
+        pip install requests
+        pip install python-dateutil
+        
+    - name: 🔄 Update README
+      run: python scripts/update_readme.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        
+    - name: 📤 Commit changes
+      run: |
+        git config --local user.email "${{ secrets.EMAIL }}"
+        git config --local user.name "Fairytale-Bot"
+        git add README.md
+        git diff --staged --quiet || git commit -m "🤖 Auto-update profile README"
+        git push
